@@ -1,12 +1,7 @@
 <div id="<%= dom_id article %>">
-  <p>
-    <strong>Title:</strong>
-    <%= article.title %>
-  </p>
-
-  <p>
-    <strong>Body:</strong>
+    <h2><%= article.title %></h2>
     <%= article.body %>
-  </p>
-
+    <% @article.photos.each do |photo| %>
+      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
 </div>
