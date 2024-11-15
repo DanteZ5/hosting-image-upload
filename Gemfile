@@ -45,6 +45,7 @@ gem "sassc-rails"
 gem "ffi", "< 1.17.0"
 
 gem "dotenv-rails"
+gem "cloudinary"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
