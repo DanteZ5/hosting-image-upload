@@ -3,6 +3,7 @@ require "application_system_test_case"
 class ArticlesTest < ApplicationSystemTestCase
   setup do
     @article = articles(:one)
+    
   end
 
   test "visiting the index" do
