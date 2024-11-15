@@ -9,6 +9,7 @@ class ArticlesTest < ApplicationSystemTestCase
   test "visiting the index" do
     visit root_path
     assert_selector "h1", text: "Articles"
+    
   end
 
   test "should create article" do
